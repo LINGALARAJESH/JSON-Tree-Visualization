@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+        /* background-color: #eee; */
+
+}
+.Main-Top-Container{
+    width:100%;
+}

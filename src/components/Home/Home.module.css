@@ -1,0 +1,211 @@
+.TopContainer{
+    width:100%;
+    .MainContainer{
+        width:95%;
+        margin:20px auto;
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        background-color: #fafafa;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+    h3{
+        text-align: center;
+        padding: 10px 0px;
+        color: #154A72;
+        font-weight: 900 !important;
+    }
+    .Datafeild{
+        margin:0px auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+     
+
+    .Formfeild {
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         .jsonTitle{
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #333;
+            text-align: center;
+        }
+        .jsontTextarea {
+            width: 100%;
+            height: 150px;
+            padding: 12px;
+            font-family: "Courier New", monospace;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            resize: none;
+            overflow: auto;
+            background-color: #fdfdfd;
+            transition: border-color 0.2s ease;
+            }
+
+        .jsontTextarea:focus {
+            border-color: #007bff;
+            outline: none;
+            background-color: #fff;
+            }
+        .buttongroup{
+            display: flex;
+            height: max-content;
+            gap: 10px;
+            .Btn {
+                display: block;
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #153A42;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: 500;
+                transition: background-color 0.25s ease, transform 0.1s ease;
+                }
+
+            .Btn:hover {
+                background-color: #153A54;
+                }
+
+            .Btn:active {
+                transform: scale(0.97);
+                }
+            .BtnC {
+                display: block;
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #7b0000;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: 500;
+                transition: background-color 0.25s ease, transform 0.1s ease;
+                }
+
+            .BtnC:hover {
+                background-color: #560000;
+                }
+
+            .BtnC:active {
+                transform: scale(0.97);
+                }
+            }
+        .message {
+            margin-top: 15px;
+            font-size: 17px;
+            text-align: left;
+            background-color:transparent;
+            font-size: 12px;
+            }
+
+        .message.valid {
+            color: #2e8b57; 
+            }
+
+        .message.invalid {
+            color: #d9534f; 
+            }
+    }
+    .searchFeild{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        .searchFeildContent{
+            width: 100%;
+            height: 100px;
+            padding: 12px;
+            font-family: "Courier New", monospace;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            resize: none;
+            overflow: auto;
+            background-color: #fdfdfd;
+            transition: border-color 0.2s ease;
+         }
+        .searchFeildButton {
+            display: block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #153A42;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            transition: background-color 0.25s ease, transform 0.1s ease;
+            }
+        .DissearchFeildButton{
+            display: block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color:gray;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            transition: background-color 0.25s ease, transform 0.1s ease;
+        }
+        .searchFeildButton:hover {
+            background-color: #ccc;
+            }
+        .searchFeildButton:hover {
+            background-color: #153A32;
+            }
+        .searchFeildButton:active {
+            transform: scale(0.97);
+            }
+         .message {
+            margin-top: 15px;
+            font-size: 17px;
+            text-align: left;
+            background-color:transparent;
+            font-size: 12px;
+            }
+
+        .message.valid {
+            color: #2e8b57; 
+            }
+
+        .message.invalid {
+            color: #d9534f; 
+            }
+        }
+    }
+     }
+    .reactFlowChart{
+        margin: auto;
+        width: 95%;
+        height: 100vh;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        margin-bottom: 40px;
+        border: 1px solid #ddd;
+        }
+}
+
+@media screen and (max-width: 499px) {
+    .Datafeild{
+        flex-direction: column;
+    }
+    .Formfeild{
+        width: 100% !important;
+    }
+    .searchFeild{
+        width: 100% !important; 
+    }
+}

@@ -1,0 +1,30 @@
+.flowContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8fafc;
+  .buttonmain {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:green;
+    position:absolute;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.25s ease, transform 0.1s ease;
+  }
+  .buttonmain:hover {
+      background-color: #153A32;
+  }
+  .buttonmain:active {
+      transform: scale(0.97);
+  }
+  .flowContainergraph {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8fafc;
+  }
+}
