@@ -1,7 +1,8 @@
 A dynamic and interactive visualization tool built with React (Vite) and React Flow that transforms JSON data into a beautiful, color-coded tree structure fully responsive and searchable.
 ->The JSON Data to Tree Visualization project allows users to paste or upload JSON data and instantly view it as an interactive, node-based tree diagram.
 ->It’s designed to help developers and analysts easily explore and understand complex JSON structures through a clean visual representation.
-Features
+Features:
+
 1.Interactive Tree Visualization
   ->Transform raw JSON data into a clear, easy-to-navigate node-based structure using the React Flow library.
 2.Responsive Design:
@@ -15,4 +16,4 @@ Features
 6.Fast Build with Vite
 ->Developed using Vite for ultra-fast hot reloading and optimized performance.
 
-Deployed url:
+Deployed url: https://visualizationtree-rajeshlingala.netlify.app/
